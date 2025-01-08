@@ -10,9 +10,9 @@ import {
   lisTxt,
 } from "./styles/header";
 
-import skills from "./data/skills";
-import projectData from "./data/protjectData";
-import { contacts, links } from "./data/contacts";
+import skills from "./model/skills";
+import projectData from "./model/protjectData";
+import { contacts, links } from "./model/contacts";
 
 import { MdMenu } from "react-icons/md";
 
@@ -180,13 +180,17 @@ const App = () => {
                     {project.title}
                   </span>
                   <div className="text-[12px] mb-2">
-                    {descriptionPoints.map((point, i) => (
+                    {descriptionPoints?.map((point, i) => (
                       <p key={i}>{point}</p>
                     ))}
                   </div>
                   <p className="text-sm font-semibold mb-1">Libraries</p>
+                  {project.fullstack && (
+                    <span className="text-xs">Frontend - {project.frontend}</span>
+                  )}
+                  {project.fullstack && <span className="text-xs">Backend - {project.backend}</span>}
                   <ul className="text-[12px]">
-                    {libraries.split(", ").map((lib, i) => (
+                    {libraries?.split(", ").map((lib, i) => (
                       <li key={i}>{lib}</li>
                     ))}
                   </ul>
