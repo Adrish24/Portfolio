@@ -210,7 +210,7 @@ const App = () => {
                     rel="noreferrer"
                     href={project.source}
                   >
-                    Soruce
+                    Source
                   </a>
                 </div>
               </div>

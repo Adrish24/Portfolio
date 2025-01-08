@@ -33,7 +33,7 @@ const projectData = [
     id: 4,
     title:"Vivadh",
     thumbnail:"https://res.cloudinary.com/dwrgejdob/image/upload/v1736314765/teoykeqjoozz2qtaffmt.png",
-    description:"This is an full-stack website, where users can disccuse about their problems and get solution, share there experiences in something with others, etc.\r\nLogin credential - \r\nUsername: test.\r\npassword: test.",
+    description:"This is an full-stack website, where users can disccuse about their problems and get solution, share there experiences in something with others, etc.\r\nLogin credentials - \r\nUsername: test.\r\npassword: test.",
     frontend: "ReactJs, Redux, axios, tailwind CSS, react-router-domm, react-icons",
     backend:  "Nodejs, ExperessJS, MongoDB, Cloudenery, bcrypt",
     source: "https://github.com/Adrish24/Vivadh",
