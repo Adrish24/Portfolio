@@ -12,8 +12,8 @@ import angularjs from "../assets/angularjs.png";
 import python from "../assets/python.png";
 
 const skills = {
-  frontend: [html, css, javascript, react, angularjs, bootstrap, tailwind],
-  backend: [expressjs, nodejs, mongodb, php, python],
+  frontend: [html, css, javascript, react, bootstrap, tailwind],
+  backend: [expressjs, nodejs, mongodb, php],
 };
 
 export default skills;
